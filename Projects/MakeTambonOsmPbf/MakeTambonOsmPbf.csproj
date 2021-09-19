@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\GeocodingAdministrative\GeocodingAdministrative.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OsmSharp" Version="7.0.0-pre014" />
+    <PackageReference Include="OsmSharp.Geo" Version="7.0.0-pre014" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
